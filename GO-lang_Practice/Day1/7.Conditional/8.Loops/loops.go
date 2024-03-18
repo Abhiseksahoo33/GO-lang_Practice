@@ -42,5 +42,15 @@ outer_loop:
 		}
 
 	}
-
+	/*
+		var a = 10
+		for a <= 10 {
+			fmt.Println("infinite For loop| like c while loop")
+		}
+	*/
+	sum := 0
+	for i := 0; i < 10; i++ {
+		sum += i
+		fmt.Println("Example of for loop")
+	}
 }
