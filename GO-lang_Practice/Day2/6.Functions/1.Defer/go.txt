@@ -1,0 +1,12 @@
+Hi Abhisek Sahoo
+
+This txt file is used in GO-lang_Practice\Day2\6.Functions\1.Defer\3.defer.go file to see the contents of the file.
+
+Explanation:
+
+file, err := os.Open(filename) opens the file in read-only mode.
+If there's an error, print it and return from the function.
+Defer file closure:
+
+defer file.Close() schedules the file.Close() function to be called automatically when the surrounding function (main) returns or panics. This ensures proper resource cleanup even in case of errors.
+
