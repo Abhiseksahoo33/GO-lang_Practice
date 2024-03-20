@@ -5,6 +5,10 @@ import (
 	"fmt"
 )
 
+const PI = 3.14159 //exported that started with upper case it can accessible in outside of package [package global]
+
+const pI = 3.14159 // it can accessible in inside of package [example in circle.go] [global]
+
 func init() {
 	fmt.Println("Inside math")
 }

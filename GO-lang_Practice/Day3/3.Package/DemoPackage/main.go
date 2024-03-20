@@ -28,6 +28,11 @@ func main() {
 	fmt.Println(geo.AsianCountries())
 
 	mmath.MethodFromGeo()
+
+	fmt.Println(mmath.PI)
+	//fmt.Println(mmath.pI) #ERROR
+
+	fmt.Println(mmath.CircleProperties(2.4))
 }
 
 /*
@@ -47,7 +52,8 @@ Result from math:  0.12269009002431533
 400
 [India China SriLanka Bangladesh Bhutan Nepal Afganistan]
 [India China SriLanka Bangladesh Bhutan Nepal Afganistan]
-
+3.14159
+18.095558399999998 15.079631999999998
 
 Create module->  cd folder
 				go mod init <module_name> -> it will create go.mod file inside the same dir
